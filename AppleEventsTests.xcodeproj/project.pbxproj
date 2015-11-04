@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D6190A6807D69C7000C6008B /* all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 21C6AB6E0B5D4B14002CBEFC /* Build configuration list for PBXAggregateTarget "all" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D6190A6A07D69C7400C6008B /* PBXTargetDependency */,
+				D6190A6C07D69C7500C6008B /* PBXTargetDependency */,
+			);
+			name = all;
+			productName = all;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D6190A6307D69C5100C6008B /* soap.cp in Sources */ = {isa = PBXBuildFile; fileRef = D6190A6207D69C5100C6008B /* soap.cp */; };
+		D6190A6507D69C5D00C6008B /* xmlrpc.cp in Sources */ = {isa = PBXBuildFile; fileRef = D6190A6407D69C5D00C6008B /* xmlrpc.cp */; };
+		D6190B8507D69CDC00C6008B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6190B8407D69CDC00C6008B /* ApplicationServices.framework */; };
+		D6190B8607D69CDC00C6008B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6190B8407D69CDC00C6008B /* ApplicationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6190A6907D69C7400C6008B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F840486A9BA00D96B5E;
+			remoteInfo = soaptest;
+		};
+		D6190A6B07D69C7500C6008B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6190A5907D69C3600C6008B;
+			remoteInfo = xmlrpctest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F8B0486A9BA00D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D6190A5E07D69C3600C6008B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F8E0486A9BA00D96B5E /* soaptest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = soaptest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6190A6007D69C3600C6008B /* xmlrpctest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xmlrpctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6190A6207D69C5100C6008B /* soap.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = soap.cp; sourceTree = "<group>"; };
+		D6190A6407D69C5D00C6008B /* xmlrpc.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = xmlrpc.cp; sourceTree = "<group>"; };
+		D6190B8407D69CDC00C6008B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F880486A9BA00D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6190B8607D69CDC00C6008B /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6190A5C07D69C3600C6008B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6190B8507D69CDC00C6008B /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* AppleEventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E9C0290928B04C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1A8B4A8EFE9D542A11CA2CBB /* Products */,
+			);
+			name = AppleEventsTests;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6190A6207D69C5100C6008B /* soap.cp */,
+				D6190A6407D69C5D00C6008B /* xmlrpc.cp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D6190B8407D69CDC00C6008B /* ApplicationServices.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1A8B4A8EFE9D542A11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F8E0486A9BA00D96B5E /* soaptest */,
+				D6190A6007D69C3600C6008B /* xmlrpctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E9C0290928B04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F840486A9BA00D96B5E /* soaptest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C6AB660B5D4B14002CBEFC /* Build configuration list for PBXNativeTarget "soaptest" */;
+			buildPhases = (
+				8DD76F860486A9BA00D96B5E /* Sources */,
+				8DD76F880486A9BA00D96B5E /* Frameworks */,
+				8DD76F8B0486A9BA00D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soaptest;
+			productInstallPath = "$(HOME)/bin";
+			productName = AppleEventsTests;
+			productReference = 8DD76F8E0486A9BA00D96B5E /* soaptest */;
+			productType = "com.apple.product-type.tool";
+		};
+		D6190A5907D69C3600C6008B /* xmlrpctest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C6AB6A0B5D4B14002CBEFC /* Build configuration list for PBXNativeTarget "xmlrpctest" */;
+			buildPhases = (
+				D6190A5A07D69C3600C6008B /* Sources */,
+				D6190A5C07D69C3600C6008B /* Frameworks */,
+				D6190A5E07D69C3600C6008B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xmlrpctest;
+			productInstallPath = "$(HOME)/bin";
+			productName = AppleEventsTests;
+			productReference = D6190A6007D69C3600C6008B /* xmlrpctest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 21C6AB620B5D4B14002CBEFC /* Build configuration list for PBXProject "AppleEventsTests" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* AppleEventsTests */;
+			projectDirPath = "";
+			projectRoot = "";
+			shouldCheckCompatibility = 1;
+			targets = (
+				D6190A6807D69C7000C6008B /* all */,
+				8DD76F840486A9BA00D96B5E /* soaptest */,
+				D6190A5907D69C3600C6008B /* xmlrpctest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F860486A9BA00D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6190A6307D69C5100C6008B /* soap.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6190A5A07D69C3600C6008B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6190A6507D69C5D00C6008B /* xmlrpc.cp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6190A6A07D69C7400C6008B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD76F840486A9BA00D96B5E /* soaptest */;
+			targetProxy = D6190A6907D69C7400C6008B /* PBXContainerItemProxy */;
+		};
+		D6190A6C07D69C7500C6008B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6190A5907D69C3600C6008B /* xmlrpctest */;
+			targetProxy = D6190A6B07D69C7500C6008B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21C6AB630B5D4B14002CBEFC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		21C6AB640B5D4B14002CBEFC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		21C6AB650B5D4B14002CBEFC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+		21C6AB670B5D4B14002CBEFC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = soaptest;
+			};
+			name = Development;
+		};
+		21C6AB680B5D4B14002CBEFC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = soaptest;
+			};
+			name = Deployment;
+		};
+		21C6AB690B5D4B14002CBEFC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = soaptest;
+			};
+			name = Default;
+		};
+		21C6AB6B0B5D4B14002CBEFC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = xmlrpctest;
+			};
+			name = Development;
+		};
+		21C6AB6C0B5D4B14002CBEFC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = xmlrpctest;
+			};
+			name = Deployment;
+		};
+		21C6AB6D0B5D4B14002CBEFC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = xmlrpctest;
+			};
+			name = Default;
+		};
+		21C6AB6F0B5D4B14002CBEFC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = all;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Development;
+		};
+		21C6AB700B5D4B14002CBEFC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = all;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		21C6AB710B5D4B14002CBEFC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = all;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21C6AB620B5D4B14002CBEFC /* Build configuration list for PBXProject "AppleEventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C6AB630B5D4B14002CBEFC /* Development */,
+				21C6AB640B5D4B14002CBEFC /* Deployment */,
+				21C6AB650B5D4B14002CBEFC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		21C6AB660B5D4B14002CBEFC /* Build configuration list for PBXNativeTarget "soaptest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C6AB670B5D4B14002CBEFC /* Development */,
+				21C6AB680B5D4B14002CBEFC /* Deployment */,
+				21C6AB690B5D4B14002CBEFC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		21C6AB6A0B5D4B14002CBEFC /* Build configuration list for PBXNativeTarget "xmlrpctest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C6AB6B0B5D4B14002CBEFC /* Development */,
+				21C6AB6C0B5D4B14002CBEFC /* Deployment */,
+				21C6AB6D0B5D4B14002CBEFC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		21C6AB6E0B5D4B14002CBEFC /* Build configuration list for PBXAggregateTarget "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C6AB6F0B5D4B14002CBEFC /* Development */,
+				21C6AB700B5D4B14002CBEFC /* Deployment */,
+				21C6AB710B5D4B14002CBEFC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
